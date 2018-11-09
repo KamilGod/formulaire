@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>formulaires</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="myform">
+        <img src="img/kisspng-clip-art-drawing-league-of-legends-portable-networ-kindred-lol-23-by-kaji-zu-on-deviantart-5ba3e756728503.1938291015374682464691.png"
+            alt="lol">
+        <form action="" method="get">
+            <fieldset>
+                <legend>Informations générales</legend>
+            
+            <div>
+                <label for="nom"> Nom d'utilisateur</label>
+                <input type="text" name="nom" id="nom" autofocus maxlength="12" autocomplete="name" placeholder="Ex: PoingDansTaFace"
+                    required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" autocomplete="email" placeholder="Ex: Jean-Claude@fullcontact.com">
+            </div>
+            <div>
+                <label for="mdp">Email</label>
+                <input type="password" name="password" id="password" autocomplete="name" placeholder="Mot de passe">
+            </div>
+            <div>
+                <label for="search">Search</label>
+                <input type="search" name="search" id="search" placeholder="Rechercher">
+            </div>
+            <div>
+                <label for="tel">Telephone</label>
+                <input type="tel" name="tel" id="tel" placeholder="+32 3773 841 53" value="+32">
+            </div>
+            <div>
+                <label for="url">Website</label>
+                <input type="url" name="url" id="url" placeholder="http://www.kickurass.punch">
+            </div>
+            <div>
+                <label for="msg">Votre Message</label>
+                <textarea id="msg" name="msg" placeholder="Votre Message pour JC"></textarea>
+            </div>
+            <div>
+                <div>
+                    <div>Votre sexe:</div>
+                    <label for="homme" class="non-block">Homme</label>
+                    <input type="radio" name="sexe" id="homme">
+                </div>
+                <div>
+                    <label for="femme" class="non-block">Femme</label>
+                    <input type="radio" name="sexe" id="femme">
+                </div>
+            </div>
+            <div>
+                <label for="country">Votre pays:</label>
+                <select name="country" id="country">
+                    <optgroup label="Europe">
+                        <option value="pl" selected>Pologne</option>
+                        <option value="be">Belgique</option>
+                        <option value="us">Etats-unis</option>
+                    </optgroup>
+                    <optgroup label="Afrique">
+                        <option value="Co">Congo</option>
+                        <option value="Zi">Zimbabwe</option>
+                        <option value="rpa">RPA</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <div>Vous aimez:</div>
+                <div>
+                    <label for="poing">Les poing dans la geule</label>
+                    <input type="checkbox" name="kif" id="poing">
+                    <label for="megot">Des megots sur le front</label>
+                    <input type="checkbox" name="kif" id="megot">
+                    <label for="pied">Des coups de pied au cul</label>
+                    <input type="checkbox" name="kif" id="pied">
+                </div>
+            </div>
+            <div>
+                <label for="color">Choisissez votre couleur</label>
+                <input type="color" name="color" id="color">
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" name="date" id="date">
+            </div>
+            <div>
+                <label for="file">Importez vos fichiers</label>
+                <input type="file" name="file" id="file">
+            </div>
+
+            <div>
+                <input type="submit" name="envoyer" id="envoyer" value="Envoyer">
+            </div>
+
+
+            <div>
+                <input type="reset" name="reset" id="reset" value="Effacer">
+            </div>
+        </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>

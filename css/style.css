@@ -1,0 +1,99 @@
+html, body {
+    height:100%;
+    
+}
+body{
+    background:url('../img/leagueoflegends-1541755763144-2707.jpg') no-repeat fixed  top;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myform{
+    width:400px;
+    background: #fff;
+    margin:150px auto;
+    position:relative;
+    padding:100px 50px 50px;
+    border-radius:5px;
+    
+    
+}
+
+img{
+    width:250px;
+    position: absolute;
+    top:0;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+input, textarea, select{
+    outline:none;
+    border:1px solid;
+    padding:10px;
+    border-radius:3px;
+    width:100%;
+    transition: all 0.3s ease-in-out;
+    border-color:  #38345e;
+
+}
+
+.non-block{
+    display: inline;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    
+}
+input:focus{
+    border:1px solid #38345e;
+}
+input:hover{
+    border:1px solid #38345e;
+    transition:0.3 all ease-in-out;
+    background-color: #838192;
+}
+
+div{
+    margin-bottom:15px;
+    
+}
+
+input[type="submit"]{
+    cursor:pointer;
+    border:none;
+}
+input[type="reset"]{
+    cursor:pointer;
+    border:none;
+}
+
+textarea{
+    resize:vertical;
+    border-radius:3px; 
+}
+
+textarea:focus{
+    border:1px solid #38345e;
+}
+textarea:hover{
+    border:1px solid #38345e;
+}
+
+#homme,#femme{
+    width:auto;
+    font-size: 10px;
+    
+}
+#poing,#pied,#megot{
+    width:auto;
+    font-size: 10px;
+}
+
+#file{
+    font-size: 12px;
+}
+
+
+
+
